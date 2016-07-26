@@ -86,12 +86,18 @@
 }
 #pragma mark - 点击事件
 -(void)addCity{
+    [self showThreeButtons];
+
     NSLog(@"addCity");
 }
 -(void)openSetting{
+    [self showThreeButtons];
+
     NSLog(@"openSetting");
 }
 -(void)aboutMe{
+    [self showThreeButtons];
+
     NSLog(@"aboutMe");
 }
 
